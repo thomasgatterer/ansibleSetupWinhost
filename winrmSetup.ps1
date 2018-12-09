@@ -5,6 +5,3 @@ $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 
 powershell.exe -ExecutionPolicy ByPass -File $file
 
-
-/etc/ansible/host
-ansible_winrm_server_cert_validation=ignore
